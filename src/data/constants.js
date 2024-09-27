@@ -93,11 +93,7 @@ export const skills = [
   {
     title: "Android",
     skills: [
-      {
-        name: "Java",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
-      },
+      
       {
         name: "Android Studio",
         image:
@@ -184,7 +180,7 @@ export const education = [
     img: "https://upload.wikimedia.org/wikipedia/en/e/ed/Punjabi_University%2C_Patiala_Logo.png",
     school: "Punjabi University , Patiala",
     date: "June 2022 - May 2024",
-    grade: "92.3%",
+    grade: "82%",
     desc: "I have completed a Master of Computer Applications (MCA) from Punjabi University, Patiala. This program provided me with comprehensive knowledge of computer science, software development, and IT management. I gained practical skills in programming, software engineering, and system analysis.",
     degree: "Master of Computer Applications",
   },
@@ -192,64 +188,25 @@ export const education = [
 
 export const projects = [
   {
-    id: 11,
-    title: "Decision's Place",
-    date: "Jan 2024 - Dec 2023",
+    id: 1,
+    title: "Job Portal",
+    date: "April 2024 - july 2024",
     description:
-      "A Rule Builder application “Decision's Place” that empowers Business Analysts to create, save, and visualize decision strategies. Provide a no-code rule writing experience and visual representation to test these rules in real-time and observe the calculations at each step.",
+      "A job portal for providing help to students in landing on first job.",
     image:
-      "https://github.com/rishavchanda/DecisionHub/raw/master/assets/testRule.jpg",
+      "",
     tags: [
       "React Js",
-      "PostgressSQL",
+      "Javascript",
       "Node Js",
       "Express Js",
       "Redux",
-      "React Flow",
+      "Tailwind css",
     ],
     category: "web app",
     github: "https://github.com/",
-    webapp: "https://decisionhub.netlify.app/",
-  },
-  {
-    id: 9,
-    title: "Trackester",
-    date: "March 2023 - Sept 2023",
-    description:
-      "Trackester is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
-    image:
-      "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
-    tags: [
-      "Docker",
-      "AWS",
-      "DuckDNS",
-      "Eslint",
-      "Husky",
-      "CI/CD",
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
-    ],
-    category: "web app",
-    github: "https://github.com/",
-    webapp: "https://trackify-management.netlify.app/",
-  },
-  {
-    id: 0,
-    title: "Play stream",
-    date: "feb 2022 - june 2022",
-    description:
-      "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
-    image:
-      "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
-    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
-    category: "web app",
-    github: "https://github.com/",
-    webapp: "https://podstream.netlify.app/",
-    
-  },
+    webapp: "code",
+  }
   
 ];
 
